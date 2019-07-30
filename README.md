@@ -5,7 +5,7 @@ sumAndLength :: Num a => [a] -> ([a], a)
 ```haskell
 >>> sumAndLength [1,2,3]
     (6, 3)
->>> runningTotals [2,-2,10,5]
+>>> sumAndLength [2,-2,10,5]
     (15, 4)
 ```
 In particular this is to evaluate the peformance of the foldl library.
